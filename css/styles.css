@@ -1,0 +1,269 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, .btn{
+    font-family: 'Playfair Display', serif;
+    color: #252525;
+}
+
+
+h4, {
+    font-family: 'Raleway', sans-serif;
+    color: #696969;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #696969;
+    line-height: 1.7;
+}
+
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    padding: 8px 18px;
+    font-size: 16px;
+    color: #636363;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+#hero-text {
+    padding-top: 80px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#hero-text h2 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.col-pad{
+    padding-top:15px;
+    padding-bottom:15px;
+
+}
+
+
+.nice-quote h2{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    border-top: 1px solid #E3E3E3;
+    margin-top: 120px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.some-thing {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    border-top: 1px solid #E3E3E3;
+    margin-top: 120px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.btcontrol{
+  text-align: center;
+  padding:20px;
+}
+
+.btn-lg {
+    padding: 12px 68px;
+    float:right;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: #252525;
+    border: 1px solid #252525;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border-color: #252525;
+    color: #252525;
+}
+
+.btn.btn-invert {
+    background-color: #fff;
+    border: 1px solid #252525;
+    color: #252525;
+    border-radius: 2px;
+
+}
+.btn.btn-invert:hover {
+    background-color: #252525;
+    border: 1px solid #252525;
+    color: #fff;
+}
+
+
+.section-title {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    border-top: 1px solid #E3E3E3;
+    margin-top: 120px;
+}
+
+}
+.contact a, .form-control {
+    border-top: 1px solid #E3E3E3;
+    color: #696969;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact .form-control {
+    padding: 12px 18px;
+}
+
+
+.contact-info {
+    margin-top: 100px;
+}
+.contact-info .card {
+    background-color: #F4F4F4;
+    border:none;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.contact-info a {
+    font-family: 'Playfair Display', serif;
+    color: #252525;
+
+}
+
+#map {
+    display: block;
+    width: 100%;
+    height: 384px;
+}
+
+.contact-info .card p {
+    margin-bottom: 0;
+}
+
+.contact-info .card .fas {
+    display: block;
+    font-size: 34px;
+    color: #252525;
+    padding-bottom: 16px;
+}
+
+.contact-info .card a, .contact-info .card p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+.contact-info .card a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-info {
+    padding: 120px 0;
+    text-align: center;
+    border-top: 1px solid #E3E3E3;
+    margin-top: 120px;
+}
+
+footer a {
+    font-size: 28px;
+    padding: 0 16px;
+}
+
+footer a, footer a:link {
+    text-decoration: none;
+    color: #777;
+}
+
+footer a:hover {
+    color: #202020;
+}
+
+#goHome {
+  position:fixed;
+  bottom:40px;
+  right:40px;
+}
